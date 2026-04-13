@@ -4,7 +4,8 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'void-packages/srcpkgs/equibop/template' # Only run when the template changes ffs
+      - 'template'
+      - 'build-xbps.yml'
   workflow_dispatch:
 
 jobs:
